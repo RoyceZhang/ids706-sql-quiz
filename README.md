@@ -91,7 +91,7 @@ python -m pip install -r requirements.txt
 cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 ```
 
-Edit `.streamlit/secrets.toml` locally (do not commit it):
+Edit `.streamlit/secrets.toml` locally:
 
 ```toml
 supabase_url = "https://YOUR_PROJECT_REF.supabase.co"
